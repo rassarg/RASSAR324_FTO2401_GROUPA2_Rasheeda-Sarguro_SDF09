@@ -1,7 +1,8 @@
 # RASSAR324_FTO2401_GROUPA2_RasheedaSarguro_SDF09
 TailwindCSS project
 
-In this project I demonstarte my understanding and application of TailwindCSS properties within an HTML file.
+In this project I demonstrate my understanding and application of TailwindCSS properties within an HTML file.
+The footer.HTML file is located in the 'build' folder.
 
 First I was confused by the initial installation process of tailwind. 
 I would get confused between what the TailwindCSS documentation stated versus what was given to us. For example, on TailwindCSS, it says that if you wanted to set the text color of an element to white, to use: text-white. In the LMS though, they gave us the example of: dark:text-white. I didn't understand how its both dark and also white. Then I realised that is included for when the user's screen is switched to dark mode, the text will appeaar white.
