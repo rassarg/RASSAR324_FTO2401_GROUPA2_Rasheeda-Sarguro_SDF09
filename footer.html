@@ -12,17 +12,22 @@
         <div class="container">
             <footer class="bg-[#659f8f] dark:bg-[#313131]">
                 <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
+                    <!-- Grid -->
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                         <div class="sm:col-span-2">
-                            <h1 class="max-w-lg" >Subscribe.</h1>
-                            <div class="flex">
-                                <input id="email" type="text">
-                                <button class="w-full px-6 py-2.5 bg-white">
+                            <!-- H1 -->
+                            <h1 class="max-w-lg text-xl font-bold tracking-normal text-slate-800 xl:text-4xl dark:text-white">Subscribe.</h1>
+                            <div class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
+                                <!-- Input -->
+                                <input class="px-4 py-2 text-[#313131] bg-white border rounded-md dark:bg-[#313131] dark:text-white dark:border-[#313131] focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]" id="email" type="text">
+                                <!-- Button -->
+                                <button class="w-full px-6 py-2.5 bg-neutral-200 border-gray-300 hover:bg-[#d86943] active:bg-orange-400 focus:border-[#d86943] ">
                                     Subscribe
                                 </button>
                             </div>
                         </div>
                         <div>
+                            <!-- Links -->
                             <p class="text-[#313131]">Quick Link</p>
                             <div class="flex">
                                 <a href="#">Home</a>
@@ -42,7 +47,7 @@
                     
                     <hr class="my-6 border-[#d86943]">
                     
-                    <div class="flex">
+                    <div class="flex items-center justify-between">
                         <a href="#">
                             <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
                         </a>
